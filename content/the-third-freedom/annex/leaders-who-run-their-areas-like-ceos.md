@@ -8,7 +8,9 @@
 | Formal jobs added | 20 | EPFO payroll and the PLFS labour survey |
 | Learning outcomes | 20 | the national class 3, 5 and 8 tests, [Chapter 15](/the-third-freedom/every-child-a-scientist-every-door-open-to-talent) |
 | Health outcomes | 20 | infant mortality and institutional births |
-| Citizen satisfaction | 20 | half from a random phone survey of 1,000 people per district every month, and half from the one-tap 0 to 10 rating (Net Promoter Score) given after every verified service delivery, both published monthly and rolled into the quarterly score |
+| Citizen satisfaction | 20 | half a monthly phone survey, half the one-tap rating after each service |
+
+**Citizen satisfaction.** Half comes from a random phone survey of 1,000 people per district every month, and half from the one-tap 0 to 10 rating (Net Promoter Score) given after every verified service delivery. Both are published monthly and rolled into the quarterly score.
 
 **Rating after delivery.** Every central, state and local service (counter, portal, app or doorstep) sends the citizen a one-tap rating link by SMS or app notification once the delivery is recorded as complete. The score is the share rating 9 or 10 minus the share rating 0 to 6. One rating per transaction, open for 7 days. Results roll up live by office, service, district, state and nation on the public dashboard, and feed the scorecards of mayors, district heads and chief ministers and the performance contracts of officials ([Chapter 12](/the-third-freedom/a-lean-state-that-delivers)).
 

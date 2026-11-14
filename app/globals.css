@@ -1159,39 +1159,49 @@ details[open] > summary.toc-group::after {
   text-align: left;
   vertical-align: top;
   border-bottom: 1px solid var(--rule);
+  /* Wrap long words only when they cannot fit; never shrink a column to one letter. */
+  overflow-wrap: break-word;
 }
 
-.table-wrap th {
+.table-wrap :is(th, td) a {
+  overflow-wrap: anywhere;
+}
+
+.table-wrap thead th {
   font-weight: 700;
   background: var(--tint);
 }
 
-.table-wrap tr:last-child td {
+/* First column: the row's name. */
+.table-wrap tbody th {
+  font-weight: 600;
+}
+
+.table-wrap tr:last-child :is(th, td) {
   border-bottom: 0;
 }
 
-.table-wrap :is(th, td) {
-  overflow-wrap: anywhere;
+/* Tablets and up: columns sized from their content (see the colgroup that
+   components/Markdown.tsx writes), so one long cell cannot squeeze the rest. */
+@media (min-width: 641px) {
+  .table-wrap table {
+    table-layout: fixed;
+  }
 }
 
-@media (max-width: 640px) {
-  .table-wrap table {
-    font-size: 0.85rem;
+/* Tablets: tables of 4 or more columns become labelled cards. */
+@media (max-width: 900px) {
+  .table-wrap table[data-stack="tablet"] {
+    table-layout: auto;
   }
 
-  .table-wrap th,
-  .table-wrap td {
-    padding: 8px 10px;
-  }
-
-  /* Three or more columns: each row becomes a card, every value labelled with
-     its column heading, so nothing has to scroll sideways. */
-  .table-wrap table:has(th:nth-child(3)) :is(tbody, tr, td) {
+  .table-wrap table[data-stack="tablet"] :is(tbody, tr, th, td) {
     display: block;
     width: 100%;
   }
 
-  .table-wrap table:has(th:nth-child(3)) thead {
+  .table-wrap table[data-stack="tablet"] colgroup,
+  .table-wrap table[data-stack="tablet"] thead {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -1200,25 +1210,29 @@ details[open] > summary.toc-group::after {
     white-space: nowrap;
   }
 
-  .table-wrap table:has(th:nth-child(3)) tr {
+  .table-wrap table[data-stack="tablet"] tr {
     padding: 14px 16px;
     border-bottom: 1px solid var(--rule);
   }
 
-  .table-wrap table:has(th:nth-child(3)) tr:last-child {
+  .table-wrap table[data-stack="tablet"] tr:last-child {
     border-bottom: 0;
   }
 
-  .table-wrap table:has(th:nth-child(3)) td {
+  .table-wrap table[data-stack="tablet"] tbody :is(th, td) {
     padding: 3px 0;
     border: 0;
   }
 
-  .table-wrap table:has(th:nth-child(3)) td + td {
+  .table-wrap table[data-stack="tablet"] tbody :is(th, td) + td {
     margin-top: 6px;
   }
 
-  .table-wrap table:has(th:nth-child(3)) td::before {
+  .table-wrap table[data-stack="tablet"] td:empty {
+    display: none;
+  }
+
+  .table-wrap table[data-stack="tablet"] td::before {
     content: attr(data-label);
     display: block;
     margin-bottom: 2px;
@@ -1228,14 +1242,89 @@ details[open] > summary.toc-group::after {
     color: var(--muted);
   }
 
-  /* The first column names the row: show it as the card's title. */
-  .table-wrap table:has(th:nth-child(3)) td:first-child {
-    font-weight: 700;
+  /* The row header is the card's title. */
+  .table-wrap table[data-stack="tablet"] tbody th {
     font-size: 0.95rem;
+    font-weight: 700;
+  }
+}
+
+/* Phones: 3 or more columns become labelled cards; 2-column tables stay
+   tables and size themselves. */
+@media (max-width: 640px) {
+  .table-wrap table {
+    font-size: 0.85rem;
   }
 
-  .table-wrap table:has(th:nth-child(3)) td:first-child::before {
-    content: none;
+  .table-wrap col {
+    width: auto !important;
+  }
+
+  .table-wrap th,
+  .table-wrap td {
+    padding: 8px 10px;
+  }
+
+  /* 2-column tables stay tables: keep the row name readable. */
+  .table-wrap :is(thead th:first-child, tbody th) {
+    min-width: 7rem;
+  }
+
+  .table-wrap table[data-stack] {
+    table-layout: auto;
+  }
+
+  .table-wrap table[data-stack] :is(tbody, tr, th, td) {
+    display: block;
+    width: 100%;
+  }
+
+  .table-wrap table[data-stack] colgroup,
+  .table-wrap table[data-stack] thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .table-wrap table[data-stack] tr {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .table-wrap table[data-stack] tr:last-child {
+    border-bottom: 0;
+  }
+
+  .table-wrap table[data-stack] tbody :is(th, td) {
+    padding: 3px 0;
+    border: 0;
+  }
+
+  .table-wrap table[data-stack] tbody :is(th, td) + td {
+    margin-top: 6px;
+  }
+
+  .table-wrap table[data-stack] td:empty {
+    display: none;
+  }
+
+  .table-wrap table[data-stack] td::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 2px;
+    font: 700 0.68rem/1.3 var(--ui);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* The row header is the card's title. */
+  .table-wrap table[data-stack] tbody th {
+    font-size: 0.95rem;
+    font-weight: 700;
   }
 }
 

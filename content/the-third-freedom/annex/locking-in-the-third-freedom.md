@@ -14,28 +14,38 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | End income and corporation tax | Arts 265, 270; List I 82, 85 | Repeal the Income-tax Act | (a) | Low |
 | 1 | Bank transaction tax (BTT) | Art 248, List I 97; Art 270 | New Union tax, shared through the Finance Commission | (a) | Low |
-| 1 | Three taxes only, for Centre and states | List I 82, 85 to 90, 92A to 92B; List II 45 to 63 except 49 | Delete other tax entries. Keep customs (List I 83) and the fixed fuel and tobacco levy (List I 84); List II 51 becomes the fixed per-unit alcohol levy. Write state shares into the text: 100% of property tax, 50% of GST, the Finance Commission share of BTT. States keep two-thirds of the GST Council vote | (c) | Medium |
+| 1 | Three taxes only, for Centre and states | List I 82, 85 to 90, 92A to 92B; List II 45 to 63 except 49 | Delete other tax entries; keep customs and the fixed fuel and tobacco levy; write state shares into the text | (c) | Medium |
 | 1 | Flat 10% GST on alcohol, petroleum and electricity | Arts 246A, 279A, 366(12A); List II 51, 53, 54 | Petroleum needs only a GST Council date (Art 279A(5)); alcohol and electricity need text changes | (c) | Low |
 | 1 | End stamp duty and registration fees | List II 63, List III 44, List I 91, Art 268 | Delete the entries | (c) | Low |
-| 1 | National 0.4% property tax | List II 49; Arts 285, 289 | Move to List I with 100% assigned to states; one uniform rate set by Parliament, no state or local variation; government property taxed on the same rule | (c) | Low to Medium |
+| 1 | National 0.4% property tax | List II 49; Arts 285, 289 | Move to List I, 100% to states; one uniform rate set by Parliament | (c) | Low to Medium |
 | 2, 4, 13 | Cashless economy, asset forfeiture, public donors, privacy ledger | Arts 300A, 19, 21 | Ordinary laws drafted to pass the privacy test (*Puttaswamy*, 2017) | (a) | Low |
-| 8 | Every civil and tax law looks forward | Art 20 (new clause 4) | No civil, tax or regulatory law imposes a duty for any period before it is made; one narrow anti-abuse exception decided by an independent tribunal, reaching back no further than the announcement date | (b) | Low |
+| 8 | Every civil and tax law looks forward | Art 20 (new clause 4) | No civil, tax or regulatory duty for any period before the law is made; one narrow anti-abuse exception | (b) | Low |
 | 3 | Cooperative banks into small banks | List I 45 | RBI powers under the Banking Regulation Act | (a) | Low |
 | 5, 11 | Conclusive land titles; free sale and leasing of farmland | List II 14, 18, 45 | Move "transfer and lease of agricultural land" and "land titles" to the Concurrent List | (c) | Low |
 | 6, 27 | Whole-life sentences and a narrow pardon | Arts 72, 161 | Mercy petitions decided within 90 days with reasons; for whole-life sentences, pardon only on fresh evidence of innocence | (b) | Medium |
-| 12 | Fixed-term contracts and removal for under-performance | Arts 310, 311 | Add removal for documented under-performance after a 90-day improvement window and a tribunal appeal. Every civil post may be a fixed-term contract, except the armed forces and intelligence. Judges, CAG, Election Commissioners and UPSC members keep their fixed terms. Serving staff keep Article 311 protection unless they accept conversion with 6 months' pay | (b) | Low |
+| 12 | Fixed-term contracts and removal for under-performance | Arts 310, 311 | Removal for documented under-performance; any civil post may be a fixed-term contract | (b) | Low |
 | 12 | End the All-India Services | Art 312, including 312(2) | Repeal the All India Services Act and amend Art 312(2), which deems the IAS and IPS to exist; Public Service Commissions keep merit tests | (b) | Low |
 | 12, 14 | Mayors as CEOs; private delivery of local services | Parts IX and IXA; 11th and 12th Schedules | Directly elected mayors with 5-year terms; all 18 Twelfth-Schedule functions devolved ("shall"); contracting allowed | (c) | Low |
 | 26 | National police standards | List II 1 to 2 | Move "police" to the Concurrent List; states keep command until a central law covers the field | (c) | Medium |
 | 7, 15, 19, 24 | Power market, food law, labour, universities | List III 38, 18, 22 to 24; List I 66 | Already central or Concurrent | (a) | Low |
 | 10, 25 | Indian control of new firms, NGO rules, internet rules | Arts 19(1)(a), (c), (g) | Ordinary laws within the reasonable-restriction clauses | (a) | Low to Medium |
 | 23 | End caste quotas in jobs and education | Arts 15(4), 15(5), 16(4), 16(4A), 16(4B), 335, 338 to 338B | One need-based clause: disadvantage measured by income and assets, the same test for all | (b) | Medium |
-| 23 | End reserved seats in legislatures | Arts 330, 332, 334, 330A, 332A, 334A, 243D, 243T | Repeal in year 1. The 2023 women's seats have not started, so no sitting member loses a seat. If the votes or ratifications fall short, SC/ST seats lapse on 25 January 2030 under Article 334 | (c) | Low to Medium |
+| 23 | End reserved seats in legislatures | Arts 330, 332, 334, 330A, 332A, 334A, 243D, 243T | Repeal in year 1; otherwise SC/ST seats lapse on 25 January 2030 (Art 334) | (c) | Low to Medium |
 | All | One civil code | Art 44; List III 5 | Ordinary law; Arts 371A and 371G amended so it reaches Nagaland and Mizoram | (a) + (b) | Low |
 | All | Sixth Schedule phase-out | Sixth Schedule, para 21 | Parliament amends it by ordinary law; the 10 autonomous councils become standard Part IX/IXA bodies at the end of their terms | (a) | Low |
 | All | Fifth Schedule | Fifth Schedule, para 7 | Ordinary law | (a) | Low |
 | All | Special provisions for 12 states | Arts 371 to 371J | Repeal; development boards replaced by one national formula | (b), ratified for safety | Low to Medium |
 | 9 | Rent control fallback: urban landlord and tenant law | List II 18, List III 6 to 7 | Move "landlord and tenant in urban property" to the Concurrent List so a national tenancy law applies where a state does not repeal rent control | (c) | Low |
+
+**Three taxes only, for Centre and states (Chapter 1).** Delete other tax entries. Keep customs (List I 83) and the fixed fuel and tobacco levy (List I 84); List II 51 becomes the fixed per-unit alcohol levy. Write state shares into the text: 100% of property tax, 50% of GST, the Finance Commission share of BTT. States keep two-thirds of the GST Council vote.
+
+**National 0.4% property tax (Chapter 1).** Move to List I with 100% assigned to states; one uniform rate set by Parliament, no state or local variation; government property taxed on the same rule.
+
+**Every civil and tax law looks forward (Chapter 8).** No civil, tax or regulatory law imposes a duty for any period before it is made; one narrow anti-abuse exception decided by an independent tribunal, reaching back no further than the announcement date.
+
+**Fixed-term contracts and removal for under-performance (Chapter 12).** Add removal for documented under-performance after a 90-day improvement window and a tribunal appeal. Every civil post may be a fixed-term contract, except the armed forces and intelligence. Judges, CAG, Election Commissioners and UPSC members keep their fixed terms. Serving staff keep Article 311 protection unless they accept conversion with 6 months' pay.
+
+**End reserved seats in legislatures (Chapter 23).** Repeal in year 1. The 2023 women's seats have not started, so no sitting member loses a seat. If the votes or ratifications fall short, SC/ST seats lapse on 25 January 2030 under Article 334.
 
 2.  **Three bills on day 1 of a special session** called under Article 85:
 

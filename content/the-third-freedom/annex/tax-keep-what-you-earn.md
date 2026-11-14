@@ -39,13 +39,19 @@
 | Supply-chain BTT and loans | (₹920 + ₹92 lakh crore) × 0.25% | **2.5** |
 | GST from the formalising economy | ₹22.3 lakh crore × 10% | **2.2** |
 | Cash moving onto the rails | ₹150 lakh crore of new retail credits × 0.5% | **0.75** |
-| Net subsidy saving | Subsidies of ₹4.30 lakh crore are replaced by a targeted cash transfer that settles at about ₹0.94 lakh crore a year by switch day ([Chapter 23](/the-third-freedom/a-hand-up-and-an-equal-chance)), a saving of about ₹3.35 lakh crore. [Chapter 15](/the-third-freedom/every-child-a-scientist-every-door-open-to-talent) (₹24,000 crore) and a ₹10,000 crore reserve for the transfer ([Chapter 23](/the-third-freedom/a-hand-up-and-an-equal-chance)) already take ₹0.34 lakh crore of it | **3.01** |
+| Net subsidy saving | About ₹3.35 lakh crore saved on subsidies, less ₹0.34 lakh crore already committed | **3.01** |
 | Fair-price government buying ([Chapter 13](/the-third-freedom/clean-money-trusted-public-life)) and no more printing of notes ([Chapter 2](/the-third-freedom/every-rupee-digital)) | ₹30,000 crore + ₹6,000 crore | **0.36** |
-| [Chapter 12](/the-third-freedom/a-lean-state-that-delivers) | ₹18,055 crore of losses no longer funded, minus about ₹6,700 crore of dividends no longer received. The sale proceeds themselves fund the Transition Buffer, so the interest they save shows up as borrowing avoided and is not counted twice | **0.11** |
+| [Chapter 12](/the-third-freedom/a-lean-state-that-delivers) | ₹18,055 crore of losses no longer funded, minus about ₹6,700 crore of dividends no longer received | **0.11** |
 | Fewer civil posts ([Chapter 12](/the-third-freedom/a-lean-state-that-delivers)) | Posts fall from 10% to 20% fewer through the year, an average of 15% on a civil wage bill of about ₹12.5 lakh crore | **1.85** |
 | New GST on electricity, fuel and newly built property, net of input credit | About ₹10 lakh crore a year of household spending on these that pays no GST today × 10% | **1.0** |
-| Property tax | Indian real estate is worth about ₹990 lakh crore (estimate: about 70% of an estimated $15 trillion of household wealth × ₹94.5 per dollar; the RBI's household finance committee found real estate is over 70% of household assets, and UBS puts financial assets at only 25.8% of Indian household wealth). Auto-debited from the owner's account, so collection starts at about 95%: ₹990 × 0.4% × 95% | **3.8** |
+| Property tax | ₹990 lakh crore of real estate × 0.4% × 95% collected | **3.8** |
 | **Total** | 7.6 + 2.5 + 2.2 + 0.75 + 3.01 + 0.36 + 0.11 + 1.85 + 1.0 + 3.8 | **≈ 23.2** |
+
+**Net subsidy saving.** Subsidies of ₹4.30 lakh crore are replaced by a targeted cash transfer that settles at about ₹0.94 lakh crore a year by switch day ([Chapter 23](/the-third-freedom/a-hand-up-and-an-equal-chance)), a saving of about ₹3.35 lakh crore. [Chapter 15](/the-third-freedom/every-child-a-scientist-every-door-open-to-talent) (₹24,000 crore) and a ₹10,000 crore reserve for the transfer ([Chapter 23](/the-third-freedom/a-hand-up-and-an-equal-chance)) already take ₹0.34 lakh crore of it.
+
+**[Chapter 12](/the-third-freedom/a-lean-state-that-delivers).** The sale proceeds themselves fund the Transition Buffer, so the interest they save shows up as borrowing avoided and is not counted twice.
+
+**Property tax.** Indian real estate is worth about ₹990 lakh crore (estimate: about 70% of an estimated $15 trillion of household wealth × ₹94.5 per dollar; the RBI's household finance committee found real estate is over 70% of household assets, and UBS puts financial assets at only 25.8% of Indian household wealth). It is auto-debited from the owner's account, so collection starts at about 95%.
 
 **What it replaces (estimate):** ₹23.4 lakh crore of net direct tax, about ₹1.7 lakh crore of stamp duty and registration fees, and about ₹1.5 lakh crore of state vehicle tax and electricity duty, ≈ ₹26.6 lakh crore. Add the one-time contract offer to permanent staff (about ₹0.3 lakh crore, [Chapter 12](/the-third-freedom/a-lean-state-that-delivers)), the phone loan-loss provision (about ₹0.05 lakh crore, [Chapter 4](/the-third-freedom/digital-rails-for-every-citizen)) and the learning fund (about ₹0.01 lakh crore, [Chapter 25](/the-third-freedom/an-internet-that-works-for-india)): **≈ ₹27.0 lakh crore needed.** Fuel VAT, central fuel duty and state excise are kept whole by the per-unit levies, so they are not in this gap.
 

@@ -45,7 +45,7 @@ Here is how the money the state raises, and what tax costs people and firms, com
 
 | Outcome | Today | The new way |
 | --- | --- | --- |
-| Money raised for the state | ₹23.4 lakh crore of net direct tax, plus some state taxes | About ₹23.2 lakh crore in year 1, more than the old system needs from year 2, and growing every year after as hidden money and cash join the bank rails; the year-1 gap is met from public company sale proceeds, with no borrowing for the switch (estimate) |
+| Money raised for the state | ₹23.4 lakh crore of net direct tax, plus some state taxes | About ₹23.2 lakh crore in year 1; more than the old system needs from year 2 (estimate) |
 | GST | ₹22.3 lakh crore, slabs from 0% to 40%, average about 9.5% | One flat 10% rate: about the same money, far simpler |
 | Tax returns to file | Every year: returns, TDS, notices and audits | One final return, then tax settles itself automatically |
 | Property tax | Rates, bills and rebates that differ by city, collected at counters | One 0.4% rate everywhere, auto-debited from the owner's bank account |
@@ -53,6 +53,8 @@ Here is how the money the state raises, and what tax costs people and firms, com
 | Tax on ₹1 lakh of a top earner's pay | Up to ₹30,000 (30% slab) | ₹500 |
 | Tax on ₹100 of company profit kept to reinvest | ₹25 | ₹0 |
 | A poor household | No income tax; food at 0% or 5% GST; help through subsidies | ₹2,000 a month in cash (estimate), well above the extra ₹400 a month of GST on food plus the bank tax |
+
+**Money raised for the state.** Revenue keeps growing every year after year 1, as hidden money and cash join the bank rails. The year-1 gap is met from public company sale proceeds, with no borrowing for the switch.
 
 On money raised, the new way is about the same. On everything people and firms actually feel, from filing to disputes to tax on work and investment, it is better.
 

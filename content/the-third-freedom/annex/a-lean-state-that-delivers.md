@@ -61,7 +61,9 @@
 | Dividends no longer received | 9% of the ₹74,017 crore the Centre received in 2024-25 | about −6,700 |
 | Net interest saving | 26,950 − 6,700, as borrowing avoided by the Transition Buffer | **about 20,250** |
 | Losses removed: selling or closing the 63 loss-makers ends the drain |  | **18,055** |
-| **Net to the budget** | 20,250 + 18,055 | **≈ ₹0.38 lakh crore a year**; [Chapter 1](/the-third-freedom/tax-keep-what-you-earn) counts the ₹0.11 lakh crore of losses less dividends, and the interest saving shows there as borrowing avoided by the Transition Buffer |
+| **Net to the budget** | 20,250 + 18,055 | **≈ ₹0.38 lakh crore a year** |
+
+**Net to the budget.** [Chapter 1](/the-third-freedom/tax-keep-what-you-earn) counts the ₹0.11 lakh crore of losses less dividends, and the interest saving shows there as borrowing avoided by the Transition Buffer.
 
 -   **Voluntary retirement (estimate):** if 10% of civil posts are vacated (the year-1 fewer-posts target), the wage bill falls by about 10% × ₹12.5 lakh crore ≈ **₹1.25 lakh crore a year**, for good. The package averages about 40 months' pay (an employee with 20 years served and 12 left: 20 × 45 + 12 × 25 = 1,200 days), about 3.2 years of salary, so the one-time cost is about **₹3.75 lakh crore**: about ₹1.9 lakh crore in year 1 and ₹1.9 lakh crore in year 2. It is financed through the [Chapter 1](/the-third-freedom/tax-keep-what-you-earn) Transition Buffer and pays for itself in about 3 years.
 -   **Conversion to contracts (estimate):** a one-time cost of about ₹30,000 crore (10 lakh staff accepting × about ₹3 lakh, six months' pay), met as set out in [Chapter 1](/the-third-freedom/tax-keep-what-you-earn).

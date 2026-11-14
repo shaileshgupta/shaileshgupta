@@ -58,7 +58,7 @@ The book opens with the principles that guide every chapter. Part I comes next, 
 
 | Part | Theme | Why it comes here |
 | --- | --- | --- |
-| The principles | One country, one law; minimum government, maximum governance; register, don't ask permission; fair published prices; the Aadhaar way; sovereignty first; pay for outcomes; Europe for quality of life and America for capitalism; no cap on dreams; a guardrail for every rule | The ideas that every chapter builds on |
+| The principles | Ten principles behind every chapter (see [The Principles](/the-third-freedom/the-principles)) | The ideas that every chapter builds on |
 | Part I | Money, tax and digital rails | The rails every other reform runs on, built on what India already has (UPI, Aadhaar, GST), plus land records and fast courts |
 | Part II | Unleash enterprise | Mostly repeal and deregulation: almost no cost, the fastest growth |
 | Part III | Minimum government, maximum governance | Reorganises the state; self-funding through asset sales and savings |

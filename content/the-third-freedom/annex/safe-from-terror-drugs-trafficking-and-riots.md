@@ -32,9 +32,11 @@
 | --- | --- |
 | **Organising, funding, inciting or leading** | 10 years to life imprisonment |
 | **Where anyone is killed or grievously hurt** in a riot they organised, funded, incited or led | life imprisonment for the rest of their natural life, with no remission ([Chapter 6](/the-third-freedom/justice-on-time)) |
-| **Killing in such a riot** | death or life imprisonment, as Section 103(2) of the Bharatiya Nyaya Sanhita already provides for murder by a group on grounds of community, caste or language. Death only after full trial and High Court confirmation |
+| **Killing in such a riot** | death or life imprisonment; death only after full trial and High Court confirmation |
 | **Causing grievous hurt** | 10 years to life |
 | **Taking part** without causing injury | up to 10 years |
+
+**Killing in such a riot.** Section 103(2) of the Bharatiya Nyaya Sanhita already provides death or life imprisonment for murder by a group on grounds of community, caste or language.
 
 -   **Online incitement** that is followed by violence within 7 days is treated as incitement.
 

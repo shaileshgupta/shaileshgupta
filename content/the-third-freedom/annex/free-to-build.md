@@ -28,9 +28,13 @@
 | Item | Working (₹) | Note |
 | --- | --- | --- |
 | **Customs revenue rises** | 5% of ₹73.2 lakh crore of imports ≈ ₹3.66 lakh crore, against ₹2.58 lakh crore collected in FY26 (estimate) | The gain comes from ending exemptions. |
-| **Who pays it** | $134.7 billion of crude (₹12.73 lakh crore) × 5% ≈ ₹63,650 crore, about ₹2.2 a litre (estimate: ≈245 million tonnes, about 286 billion litres, of crude imported in FY26) | Crude oil, which pays almost no duty today, is the largest new item. It applies to every importer alike. The fertiliser part sits inside [Chapter 11](/the-third-freedom/land-that-works-for-its-owner)'s price path. |
-| **Compliance savings** | If 10% of the 8.84 crore Udyam-registered firms each save ₹1 lakh a year (half of an assumed ₹2 lakh compliance cost), the saving is 88 lakh × ₹1 lakh ≈ ₹88,000 crore a year (estimate) |  |
+| **Who pays it** | $134.7 billion of crude (₹12.73 lakh crore) × 5% ≈ ₹63,650 crore, about ₹2.2 a litre (estimate) | Crude oil is the largest new item. It applies to every importer alike. |
+| **Compliance savings** | 88 lakh firms × ₹1 lakh a year ≈ ₹88,000 crore a year (estimate) |  |
 | **Land** | Selling 50,000 acres of clear-title idle land at ₹1 crore an acre raises ₹50,000 crore (estimate) | Defence alone holds about 18 lakh acres. |
+
+**Who pays it.** The litre figure assumes ≈245 million tonnes, about 286 billion litres, of crude imported in FY26. Crude oil pays almost no duty today. The fertiliser part sits inside [Chapter 11](/the-third-freedom/land-that-works-for-its-owner)'s price path.
+
+**Compliance savings.** If 10% of the 8.84 crore Udyam-registered firms each save ₹1 lakh a year (half of an assumed ₹2 lakh compliance cost), the saving is 88 lakh × ₹1 lakh ≈ ₹88,000 crore a year (estimate).
 
 -   **Tech.** NSWS is rebuilt on the Business ID with an open API and a countdown clock on every application. Any GovTech firm that passes the open spec and certification test can connect and sell to any state under the Aadhaar playbook, paid per verified delivery within 30 days.
 -   **Jobs.** Labour freedom plus ready plots aims at large factories in garments, electronics and footwear that employ 5,000 to 20,000 people each.
