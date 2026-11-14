@@ -1,0 +1,3 @@
+In the end, I measure prosperity in the lives of people: a mother who can trust the food she buys, a son who finishes school with real skills. This Part helps growth reach every family and strengthens the bonds that hold a society together.
+
+These reforms come together because each one shapes how citizens live, learn and take part. One income-tested cash transfer gives every family a safety net and a reason to climb. Safe food and a measured move to organic farming protect every family's health. An Indian-first internet keeps Indian data in India and promotes learning. Each touches daily life closely, so it deserves careful law and wide public discussion. That is why they come here, after the foundations are in place.

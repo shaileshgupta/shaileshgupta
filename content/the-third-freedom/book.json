@@ -1,0 +1,797 @@
+{
+  "slug": "the-third-freedom",
+  "title": "The Third Freedom",
+  "eyebrow": "1947. 1991. Now.",
+  "subtitle": "India's unfinished freedom: from developing to developed nation in one generation",
+  "author": "Shailesh Gupta",
+  "coverAlt": "Front cover: The Third Freedom. 1947. 1991. Now. By Shailesh Gupta",
+  "blurb": {
+    "headline": "1947 freed India from foreign rule. 1991 freed it from the licence raj. The third freedom frees every Indian to build.",
+    "body": "India has the largest, youngest workforce on earth, and a window that will not stay open for ever. This book is a complete playbook to turn that demographic dividend into a developed nation within one generation, not fifty years: 28 reforms, each with its cost, its legal route, its guardrails and real proof that it already works somewhere in India or abroad.",
+    "points": [
+      "Three simple taxes and no income tax",
+      "A fully digital, cashless economy",
+      "No licence raj: register and start the same day",
+      "Courts with hard deadlines, and a clean, well-paid police",
+      "A lean, contract-based state that pays only for results",
+      "Every action in the first 30 days or within 1 year"
+    ],
+    "quote": "It is not a question of whether it can be done. It is a question of political will, within one tenure."
+  },
+  "parts": [
+    {
+      "id": "part-i",
+      "label": "Part I",
+      "title": "Money, Tax and Digital Rails",
+      "slug": "money-tax-and-digital-rails"
+    },
+    {
+      "id": "part-ii",
+      "label": "Part II",
+      "title": "Unleash Enterprise",
+      "slug": "unleash-enterprise"
+    },
+    {
+      "id": "part-iii",
+      "label": "Part III",
+      "title": "Minimum Government, Maximum Governance",
+      "slug": "minimum-government-maximum-governance"
+    },
+    {
+      "id": "part-iv",
+      "label": "Part IV",
+      "title": "Build the Future",
+      "slug": "build-the-future"
+    },
+    {
+      "id": "part-v",
+      "label": "Part V",
+      "title": "A Liveable India",
+      "slug": "a-liveable-india"
+    },
+    {
+      "id": "part-vi",
+      "label": "Part VI",
+      "title": "People and Society",
+      "slug": "people-and-society"
+    },
+    {
+      "id": "part-vii",
+      "label": "Part VII",
+      "title": "Safety and the Rule of Law",
+      "slug": "safety-and-the-rule-of-law"
+    },
+    {
+      "id": "part-viii",
+      "label": "Part VIII",
+      "title": "Making It Law",
+      "slug": "making-it-law"
+    },
+    {
+      "id": "afterword",
+      "label": "",
+      "title": "Afterword",
+      "slug": null
+    }
+  ],
+  "sections": [
+    {
+      "slug": "introduction",
+      "kind": "front",
+      "title": "Introduction",
+      "words": 1337
+    },
+    {
+      "slug": "executive-summary",
+      "kind": "front",
+      "title": "Executive summary",
+      "words": 1173
+    },
+    {
+      "slug": "the-principles",
+      "kind": "front",
+      "title": "The Principles",
+      "dek": "Ten simple ideas run through every chapter of this book. Together they describe a state that trusts its people, moves fast and delivers.",
+      "words": 1985
+    },
+    {
+      "slug": "money-tax-and-digital-rails",
+      "kind": "part",
+      "label": "Part I",
+      "title": "Money, Tax and Digital Rails",
+      "part": "part-i",
+      "dek": "Chapters 1 to 6: Tax: Keep What You Earn; Every Rupee Digital; Banks for Builders, Safety for Savers; Digital Rails for Every Citizen; Land You Truly Own; Justice on Time.",
+      "words": 196
+    },
+    {
+      "slug": "tax-keep-what-you-earn",
+      "kind": "chapter",
+      "number": 1,
+      "label": "Chapter 1",
+      "title": "Tax: Keep What You Earn",
+      "part": "part-i",
+      "annex": "tax-keep-what-you-earn",
+      "dek": "Abolish income tax and simplify to 3 taxes. Outcome: the same or more revenue from year 2, money moving faster on the bank rails, and a path to double-digit growth.",
+      "words": 2182
+    },
+    {
+      "slug": "every-rupee-digital",
+      "kind": "chapter",
+      "number": 2,
+      "label": "Chapter 2",
+      "title": "Every Rupee Digital",
+      "part": "part-i",
+      "annex": "every-rupee-digital",
+      "dek": "Go fully digital in 1 year. Outcome: ₹40 lakh crore of idle cash moves into banks, adding about ₹10 lakh crore of new lending.",
+      "words": 1390
+    },
+    {
+      "slug": "banks-for-builders-safety-for-savers",
+      "kind": "chapter",
+      "number": 3,
+      "label": "Chapter 3",
+      "title": "Banks for Builders, Safety for Savers",
+      "part": "part-i",
+      "annex": "banks-for-builders-safety-for-savers",
+      "dek": "Digital bank licences in 30 days and weak cooperative banks merged. Outcome: 5 crore newly banked and every insured saver paid in 90 days.",
+      "words": 1574
+    },
+    {
+      "slug": "digital-rails-for-every-citizen",
+      "kind": "chapter",
+      "number": 4,
+      "label": "Chapter 4",
+      "title": "Digital Rails for Every Citizen",
+      "part": "part-i",
+      "annex": "digital-rails-for-every-citizen",
+      "dek": "Run every government service like UPI. Outcome: 99.9% uptime, signal in every village and KYC done once for life.",
+      "words": 1414
+    },
+    {
+      "slug": "land-you-truly-own",
+      "kind": "chapter",
+      "number": 5,
+      "label": "Chapter 5",
+      "title": "Land You Truly Own",
+      "part": "part-i",
+      "annex": "land-you-truly-own",
+      "dek": "Digitize every land and court record. Outcome: 100% of land records digital in 30 days and state-guaranteed titles in 20 states in 1 year.",
+      "words": 1523
+    },
+    {
+      "slug": "justice-on-time",
+      "kind": "chapter",
+      "number": 6,
+      "label": "Chapter 6",
+      "title": "Justice on Time",
+      "part": "part-i",
+      "annex": "justice-on-time",
+      "dek": "Use AI to sort and speed up every case. Outcome: 2.2 crore cases decided in 1 year, and serious trials finished in 60 days.",
+      "words": 1856
+    },
+    {
+      "slug": "unleash-enterprise",
+      "kind": "part",
+      "label": "Part II",
+      "title": "Unleash Enterprise",
+      "part": "part-ii",
+      "dek": "Chapters 7 to 11: Free to Build; The Great Repeal; Homes Where the Jobs Are; Built by Indians, Open to the World; Land That Works for Its Owner.",
+      "words": 158
+    },
+    {
+      "slug": "free-to-build",
+      "kind": "chapter",
+      "number": 7,
+      "label": "Chapter 7",
+      "title": "Free to Build",
+      "part": "part-ii",
+      "annex": "free-to-build",
+      "dek": "One business ID, licence-free business and a 5% import duty. Outcome: a company starts in 1 day, closes in 30 and settles disputes in 90.",
+      "words": 1829
+    },
+    {
+      "slug": "the-great-repeal",
+      "kind": "chapter",
+      "number": 8,
+      "label": "Chapter 8",
+      "title": "The Great Repeal",
+      "part": "part-ii",
+      "annex": "the-great-repeal",
+      "dek": "Use AI to repeal outdated laws in one Act. Outcome: about 90% of the legal load gone in 90 days, and every law sunsets in 10 years.",
+      "words": 2048
+    },
+    {
+      "slug": "homes-where-the-jobs-are",
+      "kind": "chapter",
+      "number": 9,
+      "label": "Chapter 9",
+      "title": "Homes Where the Jobs Are",
+      "part": "part-ii",
+      "annex": "homes-where-the-jobs-are",
+      "dek": "Build homes near jobs and transit, free up renting, and leave no bare ground. Outcome: about 77 lakh new homes, 33 lakh more rentals and permits in 7 days.",
+      "words": 1765
+    },
+    {
+      "slug": "built-by-indians-open-to-the-world",
+      "kind": "chapter",
+      "number": 10,
+      "label": "Chapter 10",
+      "title": "Built by Indians, Open to the World",
+      "part": "part-ii",
+      "annex": "built-by-indians-open-to-the-world",
+      "dek": "Indian control of what is built here, with foreign capital welcome. Outcome: 10% of exports invoiced in rupees in 1 year.",
+      "words": 1592
+    },
+    {
+      "slug": "land-that-works-for-its-owner",
+      "kind": "chapter",
+      "number": 11,
+      "label": "Chapter 11",
+      "title": "Land That Works for Its Owner",
+      "part": "part-ii",
+      "annex": "land-that-works-for-its-owner",
+      "dek": "Free farmers to lease or sell their land. Outcome: 2 crore leases and 50 lakh acres of modern farms in 1 year.",
+      "words": 1421
+    },
+    {
+      "slug": "minimum-government-maximum-governance",
+      "kind": "part",
+      "label": "Part III",
+      "title": "Minimum Government, Maximum Governance",
+      "part": "part-iii",
+      "dek": "Chapters 12 to 14: A Lean State That Delivers; Clean Money, Trusted Public Life; Leaders Who Run Their Areas Like CEOs.",
+      "words": 135
+    },
+    {
+      "slug": "a-lean-state-that-delivers",
+      "kind": "chapter",
+      "number": 12,
+      "label": "Chapter 12",
+      "title": "A Lean State That Delivers",
+      "part": "part-iii",
+      "annex": "a-lean-state-that-delivers",
+      "dek": "Government as a platform, not a provider. Outcome: ₹4 lakh crore raised from sales, 10% fewer posts and ₹38,000 crore a year saved.",
+      "words": 3300
+    },
+    {
+      "slug": "clean-money-trusted-public-life",
+      "kind": "chapter",
+      "number": 13,
+      "label": "Chapter 13",
+      "title": "Clean Money, Trusted Public Life",
+      "part": "part-iii",
+      "annex": "clean-money-trusted-public-life",
+      "dek": "Public wealth records and faceless audits. Outcome: every political rupee public in 48 hours and ₹30,000 crore a year saved in buying.",
+      "words": 1656
+    },
+    {
+      "slug": "leaders-who-run-their-areas-like-ceos",
+      "kind": "chapter",
+      "number": 14,
+      "label": "Chapter 14",
+      "title": "Leaders Who Run Their Areas Like CEOs",
+      "part": "part-iii",
+      "annex": "leaders-who-run-their-areas-like-ceos",
+      "dek": "Run every state and district like a company. Outcome: 5 numbers published every quarter, and 200 proven practices copied in 1 year.",
+      "words": 2023
+    },
+    {
+      "slug": "build-the-future",
+      "kind": "part",
+      "label": "Part IV",
+      "title": "Build the Future",
+      "part": "part-iv",
+      "dek": "Chapters 15 to 20: Every Child a Scientist, Every Door Open to Talent; Backing India's Builders; Defence Startups: Built in India, Proven in the Field; Machines Made in India; Energy: Power Made in India; Built Right, Built to Last.",
+      "words": 169
+    },
+    {
+      "slug": "every-child-a-scientist-every-door-open-to-talent",
+      "kind": "chapter",
+      "number": 15,
+      "label": "Chapter 15",
+      "title": "Every Child a Scientist, Every Door Open to Talent",
+      "part": "part-iv",
+      "annex": "every-child-a-scientist-every-door-open-to-talent",
+      "dek": "Daily maths, science and coding with AI tutors, in every school of every faith. Outcome: tutors in 22 languages, 1.5 crore tablets and class 3 maths up 5 points.",
+      "words": 1914
+    },
+    {
+      "slug": "backing-indias-builders",
+      "kind": "chapter",
+      "number": 16,
+      "label": "Chapter 16",
+      "title": "Backing India's Builders",
+      "part": "part-iv",
+      "annex": "backing-indias-builders",
+      "dek": "A ₹25,000 crore fund of funds for Indian startups, and crowdfunding for all. Outcome: at least 80 venture funds backed in 1 year.",
+      "words": 1361
+    },
+    {
+      "slug": "defence-startups-built-in-india-proven-in-the-field",
+      "kind": "chapter",
+      "number": 17,
+      "label": "Chapter 17",
+      "title": "Defence Startups: Built in India, Proven in the Field",
+      "part": "part-iv",
+      "annex": "defence-startups-built-in-india-proven-in-the-field",
+      "dek": "The state as guaranteed buyer of Indian defence tech. Outcome: payment in 30 days, ₹8,000 crore committed and 60% Indian drones in 1 year.",
+      "words": 1203
+    },
+    {
+      "slug": "machines-made-in-india",
+      "kind": "chapter",
+      "number": 18,
+      "label": "Chapter 18",
+      "title": "Machines Made in India",
+      "part": "part-iv",
+      "annex": "machines-made-in-india",
+      "dek": "Make machines, robots and chips in India, in 6 sector cities. Outcome: India's first commercial fab, about 1 lakh direct jobs and less of $116 billion of imports.",
+      "words": 2348
+    },
+    {
+      "slug": "energy-power-made-in-india",
+      "kind": "chapter",
+      "number": 19,
+      "label": "Chapter 19",
+      "title": "Energy: Power Made in India",
+      "part": "part-iv",
+      "annex": "energy-power-made-in-india",
+      "dek": "Electric vehicles at scale and nuclear power 100x. Outcome: 50,000 e-buses, a charger every 25 km and a path to 880 GW of nuclear.",
+      "words": 1335
+    },
+    {
+      "slug": "built-right-built-to-last",
+      "kind": "chapter",
+      "number": 20,
+      "label": "Chapter 20",
+      "title": "Built Right, Built to Last",
+      "part": "part-iv",
+      "annex": "built-right-built-to-last",
+      "dek": "Plan once, dig once, build at fair prices with 10-year warranties. Outcome: 100% of broad-gauge rail electric in 1 year and roads left whole for 5 years.",
+      "words": 2473
+    },
+    {
+      "slug": "a-liveable-india",
+      "kind": "part",
+      "label": "Part V",
+      "title": "A Liveable India",
+      "part": "part-v",
+      "dek": "Chapters 21 to 22: Clean Air for Every Lung; Moving a Billion People.",
+      "words": 133
+    },
+    {
+      "slug": "clean-air-for-every-lung",
+      "kind": "chapter",
+      "number": 21,
+      "label": "Chapter 21",
+      "title": "Clean Air for Every Lung",
+      "part": "part-v",
+      "annex": "clean-air-for-every-lung",
+      "dek": "A live air sensor everywhere, and polluters pay by the hour. Outcome: PM2.5 down 10% a year, reaching Europe's limit of 10 in about 14 years.",
+      "words": 1886
+    },
+    {
+      "slug": "moving-a-billion-people",
+      "kind": "chapter",
+      "number": 22,
+      "label": "Chapter 22",
+      "title": "Moving a Billion People",
+      "part": "part-v",
+      "annex": "moving-a-billion-people",
+      "dek": "One transport authority and a 100-year plan per metro region. Outcome: 1 ticket for every ride, and road deaths halved in 10 years.",
+      "words": 1699
+    },
+    {
+      "slug": "people-and-society",
+      "kind": "part",
+      "label": "Part VI",
+      "title": "People and Society",
+      "part": "part-vi",
+      "dek": "Chapters 23 to 25: A Hand Up and an Equal Chance; Safe Food, Clean Fields; An Internet That Works for India.",
+      "words": 126
+    },
+    {
+      "slug": "a-hand-up-and-an-equal-chance",
+      "kind": "chapter",
+      "number": 23,
+      "label": "Chapter 23",
+      "title": "A Hand Up and an Equal Chance",
+      "part": "part-vi",
+      "annex": "a-hand-up-and-an-equal-chance",
+      "dek": "Replace subsidies with one cash transfer and one equal-opportunity law. Outcome: ₹3.35 lakh crore a year saved, and bias complaints decided in 30 days.",
+      "words": 1411
+    },
+    {
+      "slug": "safe-food-clean-fields",
+      "kind": "chapter",
+      "number": 24,
+      "label": "Chapter 24",
+      "title": "Safe Food, Clean Fields",
+      "part": "part-vi",
+      "annex": "safe-food-clean-fields",
+      "dek": "Ban every pesticide Europe bans, and test food weekly. Outcome: EU food limits in 1 year, and 1 crore hectares moving to organic.",
+      "words": 1859
+    },
+    {
+      "slug": "an-internet-that-works-for-india",
+      "kind": "chapter",
+      "number": 25,
+      "label": "Chapter 25",
+      "title": "An Internet That Works for India",
+      "part": "part-vi",
+      "annex": "an-internet-that-works-for-india",
+      "dek": "An Indian-first internet that rewards learning. Outcome: endless short-video feeds down 90%, and Indian data kept in India.",
+      "words": 1338
+    },
+    {
+      "slug": "safety-and-the-rule-of-law",
+      "kind": "part",
+      "label": "Part VII",
+      "title": "Safety and the Rule of Law",
+      "part": "part-vii",
+      "dek": "Chapters 26 to 27: A Police Force India Can Trust; Safe From Terror, Drugs, Trafficking and Riots.",
+      "words": 147
+    },
+    {
+      "slug": "a-police-force-india-can-trust",
+      "kind": "chapter",
+      "number": 26,
+      "label": "Chapter 26",
+      "title": "A Police Force India Can Trust",
+      "part": "part-vii",
+      "annex": "a-police-force-india-can-trust",
+      "dek": "A fit, well-paid, army-style police force. Outcome: 6.2 lakh vacant posts filled, and body cameras on every frontline officer in 1 year.",
+      "words": 1370
+    },
+    {
+      "slug": "safe-from-terror-drugs-trafficking-and-riots",
+      "kind": "chapter",
+      "number": 27,
+      "label": "Chapter 27",
+      "title": "Safe From Terror, Drugs, Trafficking and Riots",
+      "part": "part-vii",
+      "annex": "safe-from-terror-drugs-trafficking-and-riots",
+      "dek": "The toughest lawful sentences for terror, drugs, trafficking and riots. Outcome: trials in 90 days, every criminal asset seized and riot victims paid in 30 days.",
+      "words": 1968
+    },
+    {
+      "slug": "making-it-law",
+      "kind": "part",
+      "label": "Part VIII",
+      "title": "Making It Law",
+      "part": "part-viii",
+      "dek": "[Chapter 28](/the-third-freedom/locking-in-the-third-freedom): Locking In the Third Freedom.",
+      "words": 135
+    },
+    {
+      "slug": "locking-in-the-third-freedom",
+      "kind": "chapter",
+      "number": 28,
+      "label": "Chapter 28",
+      "title": "Locking In the Third Freedom",
+      "part": "part-viii",
+      "annex": "locking-in-the-third-freedom",
+      "dek": "Every constitutional change in one package. Outcome: passed in 30 days and ratified by the states in 1 year.",
+      "words": 924
+    },
+    {
+      "slug": "conclusion",
+      "kind": "afterword",
+      "title": "Conclusion",
+      "part": "afterword",
+      "words": 435
+    },
+    {
+      "slug": "what-i-hope-you-take-away",
+      "kind": "afterword",
+      "title": "What I hope you take away",
+      "part": "afterword",
+      "words": 281
+    }
+  ],
+  "annex": {
+    "label": "For the builders",
+    "title": "Implementation Annex",
+    "dek": "Starting drafts for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at the time of execution.",
+    "sections": [
+      {
+        "slug": "the-ground-rules-in-detail",
+        "kind": "annex",
+        "label": "Annex",
+        "title": "The ground rules in detail",
+        "chapter": null,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 6860
+      },
+      {
+        "slug": "tax-keep-what-you-earn",
+        "kind": "annex",
+        "label": "Annex to Chapter 1",
+        "title": "Tax: Keep What You Earn",
+        "chapter": "tax-keep-what-you-earn",
+        "number": 1,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 3079
+      },
+      {
+        "slug": "every-rupee-digital",
+        "kind": "annex",
+        "label": "Annex to Chapter 2",
+        "title": "Every Rupee Digital",
+        "chapter": "every-rupee-digital",
+        "number": 2,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1688
+      },
+      {
+        "slug": "banks-for-builders-safety-for-savers",
+        "kind": "annex",
+        "label": "Annex to Chapter 3",
+        "title": "Banks for Builders, Safety for Savers",
+        "chapter": "banks-for-builders-safety-for-savers",
+        "number": 3,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1463
+      },
+      {
+        "slug": "digital-rails-for-every-citizen",
+        "kind": "annex",
+        "label": "Annex to Chapter 4",
+        "title": "Digital Rails for Every Citizen",
+        "chapter": "digital-rails-for-every-citizen",
+        "number": 4,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 2339
+      },
+      {
+        "slug": "land-you-truly-own",
+        "kind": "annex",
+        "label": "Annex to Chapter 5",
+        "title": "Land You Truly Own",
+        "chapter": "land-you-truly-own",
+        "number": 5,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1837
+      },
+      {
+        "slug": "justice-on-time",
+        "kind": "annex",
+        "label": "Annex to Chapter 6",
+        "title": "Justice on Time",
+        "chapter": "justice-on-time",
+        "number": 6,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 2060
+      },
+      {
+        "slug": "free-to-build",
+        "kind": "annex",
+        "label": "Annex to Chapter 7",
+        "title": "Free to Build",
+        "chapter": "free-to-build",
+        "number": 7,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 2282
+      },
+      {
+        "slug": "the-great-repeal",
+        "kind": "annex",
+        "label": "Annex to Chapter 8",
+        "title": "The Great Repeal",
+        "chapter": "the-great-repeal",
+        "number": 8,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 2055
+      },
+      {
+        "slug": "homes-where-the-jobs-are",
+        "kind": "annex",
+        "label": "Annex to Chapter 9",
+        "title": "Homes Where the Jobs Are",
+        "chapter": "homes-where-the-jobs-are",
+        "number": 9,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1561
+      },
+      {
+        "slug": "built-by-indians-open-to-the-world",
+        "kind": "annex",
+        "label": "Annex to Chapter 10",
+        "title": "Built by Indians, Open to the World",
+        "chapter": "built-by-indians-open-to-the-world",
+        "number": 10,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1720
+      },
+      {
+        "slug": "land-that-works-for-its-owner",
+        "kind": "annex",
+        "label": "Annex to Chapter 11",
+        "title": "Land That Works for Its Owner",
+        "chapter": "land-that-works-for-its-owner",
+        "number": 11,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1627
+      },
+      {
+        "slug": "a-lean-state-that-delivers",
+        "kind": "annex",
+        "label": "Annex to Chapter 12",
+        "title": "A Lean State That Delivers",
+        "chapter": "a-lean-state-that-delivers",
+        "number": 12,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 3911
+      },
+      {
+        "slug": "clean-money-trusted-public-life",
+        "kind": "annex",
+        "label": "Annex to Chapter 13",
+        "title": "Clean Money, Trusted Public Life",
+        "chapter": "clean-money-trusted-public-life",
+        "number": 13,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1531
+      },
+      {
+        "slug": "leaders-who-run-their-areas-like-ceos",
+        "kind": "annex",
+        "label": "Annex to Chapter 14",
+        "title": "Leaders Who Run Their Areas Like CEOs",
+        "chapter": "leaders-who-run-their-areas-like-ceos",
+        "number": 14,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1864
+      },
+      {
+        "slug": "every-child-a-scientist-every-door-open-to-talent",
+        "kind": "annex",
+        "label": "Annex to Chapter 15",
+        "title": "Every Child a Scientist, Every Door Open to Talent",
+        "chapter": "every-child-a-scientist-every-door-open-to-talent",
+        "number": 15,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 2211
+      },
+      {
+        "slug": "backing-indias-builders",
+        "kind": "annex",
+        "label": "Annex to Chapter 16",
+        "title": "Backing India's Builders",
+        "chapter": "backing-indias-builders",
+        "number": 16,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1099
+      },
+      {
+        "slug": "defence-startups-built-in-india-proven-in-the-field",
+        "kind": "annex",
+        "label": "Annex to Chapter 17",
+        "title": "Defence Startups: Built in India, Proven in the Field",
+        "chapter": "defence-startups-built-in-india-proven-in-the-field",
+        "number": 17,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1252
+      },
+      {
+        "slug": "machines-made-in-india",
+        "kind": "annex",
+        "label": "Annex to Chapter 18",
+        "title": "Machines Made in India",
+        "chapter": "machines-made-in-india",
+        "number": 18,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 3550
+      },
+      {
+        "slug": "energy-power-made-in-india",
+        "kind": "annex",
+        "label": "Annex to Chapter 19",
+        "title": "Energy: Power Made in India",
+        "chapter": "energy-power-made-in-india",
+        "number": 19,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1899
+      },
+      {
+        "slug": "built-right-built-to-last",
+        "kind": "annex",
+        "label": "Annex to Chapter 20",
+        "title": "Built Right, Built to Last",
+        "chapter": "built-right-built-to-last",
+        "number": 20,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 2744
+      },
+      {
+        "slug": "clean-air-for-every-lung",
+        "kind": "annex",
+        "label": "Annex to Chapter 21",
+        "title": "Clean Air for Every Lung",
+        "chapter": "clean-air-for-every-lung",
+        "number": 21,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 3406
+      },
+      {
+        "slug": "moving-a-billion-people",
+        "kind": "annex",
+        "label": "Annex to Chapter 22",
+        "title": "Moving a Billion People",
+        "chapter": "moving-a-billion-people",
+        "number": 22,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 2446
+      },
+      {
+        "slug": "a-hand-up-and-an-equal-chance",
+        "kind": "annex",
+        "label": "Annex to Chapter 23",
+        "title": "A Hand Up and an Equal Chance",
+        "chapter": "a-hand-up-and-an-equal-chance",
+        "number": 23,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1959
+      },
+      {
+        "slug": "safe-food-clean-fields",
+        "kind": "annex",
+        "label": "Annex to Chapter 24",
+        "title": "Safe Food, Clean Fields",
+        "chapter": "safe-food-clean-fields",
+        "number": 24,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 2158
+      },
+      {
+        "slug": "an-internet-that-works-for-india",
+        "kind": "annex",
+        "label": "Annex to Chapter 25",
+        "title": "An Internet That Works for India",
+        "chapter": "an-internet-that-works-for-india",
+        "number": 25,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1872
+      },
+      {
+        "slug": "a-police-force-india-can-trust",
+        "kind": "annex",
+        "label": "Annex to Chapter 26",
+        "title": "A Police Force India Can Trust",
+        "chapter": "a-police-force-india-can-trust",
+        "number": 26,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1676
+      },
+      {
+        "slug": "safe-from-terror-drugs-trafficking-and-riots",
+        "kind": "annex",
+        "label": "Annex to Chapter 27",
+        "title": "Safe From Terror, Drugs, Trafficking and Riots",
+        "chapter": "safe-from-terror-drugs-trafficking-and-riots",
+        "number": 27,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 1640
+      },
+      {
+        "slug": "locking-in-the-third-freedom",
+        "kind": "annex",
+        "label": "Annex to Chapter 28",
+        "title": "Locking In the Third Freedom",
+        "chapter": "locking-in-the-third-freedom",
+        "number": 28,
+        "dek": "A starting draft for the group of action-minded builders, from mission heads and industry veterans to entrepreneurs and the private sector, to refine. The numbers and steps show one workable way; the details are settled at execution.",
+        "words": 2090
+      },
+      {
+        "slug": "the-new-government-map",
+        "kind": "annex",
+        "label": "Annex",
+        "title": "The new government map",
+        "chapter": null,
+        "dek": "What the Union government keeps, merges and divests under this blueprint, and what happens to the people who serve in it.",
+        "words": 1784
+      }
+    ]
+  }
+}

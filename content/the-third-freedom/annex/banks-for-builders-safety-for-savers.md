@@ -1,0 +1,55 @@
+## The plan
+
+1.  **Digital Innovation Bank (DIB) licence, decided in 30 days.** Any company can apply. It needs **₹300 crore of net worth**, promoters who pass the fit-and-proper test with no regulatory fraud finding in the last 3 years, and a technology stack that passes RBI's published security and resilience test. There is no minimum number of users or years in business. The ₹300 crore is a safety rule for anyone who holds the public's money, the same for every applicant, not a size test; a startup that holds no balances needs no licence at all (item 2). RBI issues the licence or a written refusal with reasons within 30 days of a complete application. A DIB can take deposits, lend and run payments, digitally and through agents, with no branch rules. **American benchmark:** this adopts the US practice of an open charter with published criteria and a decision clock; the US Office of the Comptroller of the Currency aims to decide a complete application within 120 days, and RBI publishes its own decision times each quarter beside that benchmark.
+2.  **A two-tier rulebook.**
+    -   **Holding public money** (insured deposits or customer wallet balances) carries three hard rules: capital, KYC and a daily data feed to RBI. KYC is met by checking the person's KYC credential ([Chapter 4](/the-third-freedom/digital-rails-for-every-citizen)), done once and checked for ₹1 or less.
+    -   **Everything else** (payment apps that hold no balances, lending marketplaces, wealth tools) runs on "observe and punish". Anything is allowed unless it is on a public **banned list of about 20 practices**, which replaces approval in advance.
+3.  **Punish after the fact, heavily.** Fines of up to **3 times the gain or 5% of turnover**, a lifetime ban for a promoter or chief executive found to have committed fraud, and licence cancellation within 30 days for any proven KYC fraud. An amendment to the Banking Regulation Act, tabled in the first 30 days, sets these penalties and routes appeals to the Securities Appellate Tribunal (SAT). Until it passes, RBI uses its existing powers to issue directions and impose penalties.
+4.  **Cooperative fold-in.** Within 1 year, every urban, state and district cooperative bank must either:
+    -   (a) meet the small-finance-bank capital norm (capital adequacy of 15% or more) with gross bad loans of 6% or less; or
+    -   (b) merge with, or sell itself to, a DIB, a small finance bank or a commercial bank.
+
+A bank that has done neither by month 9 is placed in a compulsory amalgamation scheme under section 45 of the Banking Regulation Act, prepared by RBI and sanctioned by the Central Government. That power has applied to cooperative banks since the 2020 amendment and needs no state approval. A bank that finds no acquirer is wound up, with deposit insurance paid within 90 days. Village credit societies (PACS) stay on as lending agents of the merged banks.
+
+5.  **Deposit insurance priced by risk.** Every deposit-taker pays a premium of 12 to 20 paise per ₹100 of insured deposits a year, reset each quarter from the daily data feed (capital, bad loans, growth and KYC findings). New entrants start at 16 paise and move after 4 quarters of data. The scale is published and is the same for every bank.
+
+## Cost and return
+
+-   **Market:** cooperative deposits are ₹5.84 + ₹7.83 = **₹13.67 lakh crore** across 1,842 banks (1,457 + 34 + 351). Most of this moves to stronger balance sheets.
+-   **Bad loans avoided (estimate):** if the fold-in cuts cooperative bad loans from about 7.5% to 3%, then (₹3.70 lakh crore of UCB advances + about ₹6 lakh crore of state and district bank advances) × 4.5 points ≈ **₹44,000 crore** of bad loans avoided.
+-   **Deposit insurance claims:** about ₹1,000 crore a year (estimate: twice the ₹518 crore paid in half a year) fall toward zero as weak banks are absorbed.
+-   **Who pays:** DIBs pay a ₹25 crore licence fee and fund their own technology. Acquirers pay for the banks they buy. Depositors pay nothing; the deposit insurance fund, ₹2.62 lakh crore in March 2026, covers wind-ups.
+-   **Liquidity support:** an RBI window of up to ₹50,000 crore for 12 months, lent against government securities the cooperative banks already hold, so it carries no fiscal cost.
+-   **Technology:** cloud core banking (any provider certified by CERT-In), Account Aggregator for credit data, UPI and IMPS, and a real-time supervisory data feed (a SupTech API that reports every account's balance and loan status to RBI daily).
+-   **Jobs:** branch staff move to the acquirer on their existing contracts. Any later exit follows the one labour rule for every worker ([Chapter 7](/the-third-freedom/free-to-build)). DIB agent networks add about 2 lakh jobs (estimate: about 6.4 lakh villages, 1 agent per 3 villages).
+
+## Timeline
+
+**First 30 days:**
+
+-   RBI notifies the DIB licence criteria and the banned list under section 22 of the Banking Regulation Act, plus a master direction.
+-   The Banking Regulation Act amendment (penalties, SAT appeals, risk-based premiums) is tabled.
+-   The cooperative fold-in order is issued. Every cooperative bank files a capital and bad-loan report to RBI within 30 days.
+-   The SupTech daily feed goes live for all banks.
+
+**Within 1 year:**
+
+-   Months 1 to 3: forensic audits of every cooperative bank that fails either test; the first DIB licences are issued.
+-   Month 9: the voluntary route closes, and RBI places every remaining failing bank in a section 45 amalgamation scheme.
+-   Every quarter: RBI publishes the time taken on every licence decision beside the US 120-day benchmark.
+-   Month 12: every cooperative bank is converted, merged or wound up. DIBs have opened accounts for at least 5 crore previously unbanked or dormant users ([Chapter 2](/the-third-freedom/every-rupee-digital)). The banned list gets its first annual review, and enforcement statistics are published.
+
+## Guardrails
+
+-   **Deposit safety:** insured deposits are covered up to **₹5 lakh** per depositor, and any wind-up pays within **90 days**. From the signing of a merger, the acquirer takes on every deposit, insured or not.
+-   **Capital:** DIBs hold capital adequacy of **15% or more**; a breach automatically stops new lending until it is fixed.
+-   **Fast enforcement:** an RBI enforcement decision comes within **60 days** of detection, made by a dedicated 200-person enforcement wing. An appeal goes to SAT within 30 days. Fines are deposited before an appeal is heard, and no appeal can stay a depositor-protection order.
+-   **KYC audits:** the RBI-recognised fintech self-regulatory organisation checks 1 in 10 accounts of every DIB each quarter.
+-   **No volume cap:** NPCI's 30% UPI market-share cap is withdrawn, so any bank or app may grow as large as its customers make it. Abuse of dominance, such as predatory pricing, tying or refusing to connect a rival, is punished after the fact by the Competition Commission, with fines of up to 10% of global turnover. This follows the American rule: under US antitrust law it is not illegal for a company to have a monopoly; the law is broken only when it gains or keeps one through unreasonable methods.
+-   **Ownership:** foreign holdings above 50% follow [Chapter 10](/the-third-freedom/built-by-indians-open-to-the-world). Payment rails stay under Indian control (Sovereignty first).
+-   **Rural credit kept:** acquirers keep **100% of every existing borrower's credit limit for 12 months** if repayments are current, and every block keeps at least one banking service point.
+-   **Members paid fairly:** members' share capital is valued by an independent valuer and paid in cash or in shares of the acquirer within 90 days of the merger.
+-   **Hidden losses:** a forensic audit within 90 days sets the price. The deposit insurance fund may top up negative net worth up to the bank's insured deposits, because that costs less than a payout.
+-   **No runs:** capital and bad-loan reports go only to RBI until a merger is signed.
+
+**Sources:** [RBI rejects all on-tap applicants (Outlook Business)](https://www.outlookbusiness.com/news/rbi-rejects-on-tap-banking-license-request-of-all-6-applicants-news-197208) · [Fino in-principle SFB approval (RBI)](https://website.rbi.org.in/web/rbi/-/press-releases/rbi-grants-in-principle-approval-to-fino-payments-bank-limited-for-conversion-into-a-small-finance-bank) · [UCBs FY25 (Fintech BizNews)](https://fintechbiznews.com/lenders-banks/growth-led-resilience-for-ucbs-in-fy25) · [UCB revival and credit share (ThePrint)](https://theprint.in/economy/indias-urban-co-op-banks-are-turning-the-page-crisis-to-cautious-revival-one-metric-at-a-time/2815996) · [State and district cooperative banks FY25 (Indian Cooperative)](https://www.indiancooperative.com/featured/state-co-op-banks-dccbs-post-steady-growth-in-2024-25-rbi-report/amp) · [DICGC ₹518 crore claims (Indian Cooperative)](https://www.indiancooperative.com/co-op-news-snippets/dicgc-settles-rs-518-cr-claims-during-april-sept-2025/amp) · [New India Co-op ₹122 crore fraud (The News Minute)](https://www.thenewsminute.com/news/fir-against-new-india-cooperative-bank-gm-in-rs-122-crore-financial-fraud) · [Paytm Payments Bank licence cancelled (Business Today)](https://www.businesstoday.in/amp/latest/corporate/story/bt-explainer-why-rbi-cancelled-paytm-payments-banks-licence-a-breakdown-of-regulatory-lapses-concerns-527396-2026-04-24) · [87 loan apps banned (Business Today)](https://www.businesstoday.in/technology/news/story/87-illegal-loan-apps-banned-by-the-govternment-citing-data-misuse-fraud-and-harassment-504784-2025-12-03) · [Fintech SRO recognition (RBI)](https://website.rbi.org.in/web/rbi/-/press-releases/recognition-of-self-regulatory-organisation-s-in-the-fintech-sector-sro-ft-) · [DICGC newsletter: 1,950 insured banks, fund ₹2,61,823 crore (March 2026)](https://dicgc.org.in/sites/default/files/2026-05/safety-net-dicgc-newsletter-issue-5.pdf) · [PMC-Unity scheme under section 45(7) (TaxGuru)](https://taxguru.in/?p=802787) · [Shivalik, first UCB to become an SFB (Business Standard)](https://business-standard.com/article/finance/smcb-becomes-india-s-first-urban-co-operative-bank-to-transition-to-sfb-121010600540_1.html) · [MAS digital bank licences, December 2020 (TechCrunch)](https://techcrunch.com/2020/12/04/grab-singtel-and-ant-group-win-digital-bank-licenses-in-singapore) · [KakaoBank passes 10 million customers in two years (Korea Times)](https://www.koreatimes.co.kr/business/banking-finance/20190712/kakao-banks-customers-exceed-10-million-in-two-years) · [OCC de novo chartering: decisions within 120 days of a complete application](https://occ.treas.gov/topics/charters-and-licensing/de-novo-chartering/index-de-novo-chartering.html) · [FTC guide to antitrust laws: single firm conduct](https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/single-firm-conduct) · DICGC (Amendment) Act, 2021 · Banking Regulation (Amendment) Act, 2020 · Union of India v. Rajendra N. Shah (2021)

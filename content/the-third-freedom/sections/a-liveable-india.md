@@ -1,0 +1,3 @@
+Picture a schoolteacher in Patna who checks the air on her phone and lets the children play outside, and a commuter in Meerut who reaches Delhi in under an hour. The air we breathe and the way we move decide how every Indian lives each day, and I believe air pollution is one of the great challenges of this century.
+
+These two chapters belong together because each one is a network planned once for a hundred years and built in stages. Clean air comes from live public data, polluters who pay and a falling target fixed in advance. One authority and one plan for every metro region join roads, metros, railways and airports into a single network. Each is paid for on measured results, so every rupee buys cleaner air and shorter journeys.
