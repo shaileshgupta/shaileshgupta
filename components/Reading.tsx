@@ -14,11 +14,24 @@ interface PageProps {
   meta?: string;
   variant?: "part" | "annex" | "default";
   body?: string;
+  /** GitHub editor link for this page's Markdown file. */
+  editHref?: string;
   children?: ReactNode;
 }
 
 /** One reading page: heading block, Markdown body, extras, previous / next. */
-export function ReadingPage({ href, eyebrow, title, fullTitle, dek, meta, variant = "default", body, children }: PageProps) {
+export function ReadingPage({
+  href,
+  eyebrow,
+  title,
+  fullTitle,
+  dek,
+  meta,
+  variant = "default",
+  body,
+  editHref,
+  children,
+}: PageProps) {
   const { prev, next } = neighbours(href);
   return (
     <article className={`reading reading-${variant}`}>
@@ -38,6 +51,13 @@ export function ReadingPage({ href, eyebrow, title, fullTitle, dek, meta, varian
         </div>
       ) : null}
       {children}
+      {editHref ? (
+        <p className="edit-link">
+          <a href={editHref} target="_blank" rel="noopener noreferrer">
+            Suggest an edit to this page on GitHub
+          </a>
+        </p>
+      ) : null}
       <PrevNext prev={prev} next={next} />
       <RememberRead href={href} title={fullTitle} />
     </article>

@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { ThemeToggle } from "@/components/ThemeToggle";
+import { ThemeSwitch } from "@/components/ThemeToggle";
+import { PROFILES } from "@/lib/site";
 
 export function SiteHeader() {
   return (
@@ -8,17 +9,32 @@ export function SiteHeader() {
         <Link href="/" className="site-name">
           Shailesh Gupta
         </Link>
-        <ThemeToggle />
+        <ThemeSwitch />
       </div>
     </header>
+  );
+}
+
+export function ProfileLinks({ label = "Profiles" }: { label?: string }) {
+  return (
+    <ul className="profile-links" aria-label={label}>
+      {PROFILES.map((p) => (
+        <li key={p.href}>
+          <a href={p.href} target="_blank" rel="me noopener noreferrer">
+            {p.label}
+          </a>
+        </li>
+      ))}
+    </ul>
   );
 }
 
 export function SiteFooter() {
   return (
     <footer className="site-footer">
-      <div className="container">
+      <div className="container site-footer-inner">
         <p>© 2026 Shailesh Gupta</p>
+        <ProfileLinks label="Shailesh Gupta elsewhere" />
       </div>
     </footer>
   );

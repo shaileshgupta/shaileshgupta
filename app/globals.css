@@ -186,6 +186,37 @@ img {
   filter: brightness(1.08);
 }
 
+.btn-secondary {
+  color: var(--fg);
+  border: 1px solid var(--fg);
+}
+
+.btn-secondary:hover {
+  background: var(--fg);
+  color: var(--bg);
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font: 600 0.9rem/1.2 var(--ui);
+}
+
+.profile-links a {
+  color: var(--fg);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 2px;
+}
+
+.profile-links a:hover {
+  border-color: var(--accent);
+}
+
 .icon-btn {
   flex: none;
   display: grid;
@@ -237,6 +268,72 @@ img {
   }
 }
 
+/* Auto · Light · Dark switch. The selected option comes from the same
+   attribute that picks the colours, so it is correct before any script runs. */
+.theme-switch {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--bg);
+}
+
+.theme-switch button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 30px;
+  padding: 0 11px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font: 600 0.78rem/1 var(--ui);
+  cursor: pointer;
+}
+
+.theme-switch svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.theme-switch button:hover {
+  color: var(--fg);
+}
+
+:root:not([data-theme]) .theme-switch .ts-auto,
+:root[data-theme="light"] .theme-switch .ts-light,
+:root[data-theme="dark"] .theme-switch .ts-dark {
+  background: var(--surface);
+  color: var(--fg);
+  box-shadow:
+    0 1px 2px rgba(11, 22, 49, 0.12),
+    0 0 0 1px var(--rule);
+}
+
+@media (pointer: coarse) {
+  .theme-switch button {
+    height: 36px;
+  }
+}
+
+/* Narrow phones: words only, so the switch fits beside the name. */
+@media (max-width: 420px) {
+  .site-header .theme-switch svg {
+    display: none;
+  }
+
+  .site-header .theme-switch button {
+    padding: 0 10px;
+  }
+}
+
 /* ---------- Site header and footer ---------- */
 .site-header {
   border-top: 4px solid var(--accent);
@@ -265,8 +362,24 @@ img {
   color: var(--muted);
 }
 
+.site-footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+}
+
 .site-footer p {
   margin: 0;
+}
+
+.site-footer .profile-links {
+  font-size: 0.85rem;
+}
+
+.site-footer .profile-links a {
+  color: var(--muted);
 }
 
 /* ---------- Home ---------- */
@@ -284,6 +397,10 @@ img {
   margin: 0.6rem 0 0;
   font: italic 400 clamp(1.15rem, 1rem + 0.5vw, 1.35rem) / 1.4 var(--serif);
   color: var(--muted);
+}
+
+.home-intro .profile-links {
+  margin-top: 1.5rem;
 }
 
 .home-books {
@@ -333,106 +450,121 @@ img {
   }
 }
 
-/* ---------- Book page ---------- */
+/* ---------- Book page: one editorial grid ----------
+   Left column: cover and section labels. Right column: all text, at one
+   reading width. Every section shares both edges, aligned with the header. */
 .book-home {
-  padding-block: 48px 88px;
+  padding-block: 56px 96px;
 }
 
-.book-hero {
+.bh-grid {
   display: grid;
-  grid-template-columns: minmax(0, 380px) minmax(0, 1fr);
-  gap: 64px;
+  grid-template-columns: 300px minmax(0, 40rem);
+  column-gap: clamp(48px, 6vw, 96px);
+  align-items: start;
+}
+
+.bh-section {
+  margin-top: 88px;
+  padding-top: 40px;
+  border-top: 1px solid var(--rule);
+}
+
+.bh-label {
+  position: sticky;
+  top: 32px;
+  margin: 0.35rem 0 0;
+}
+
+.bh-main > :first-child {
+  margin-top: 0;
+}
+
+/* Hero */
+.book-hero {
   align-items: center;
 }
 
-.book-hero-cover {
-  order: -1;
-}
-
 .book-hero-cover img {
-  border-radius: 8px;
-  box-shadow: 0 24px 60px var(--shadow);
+  width: 100%;
+  border-radius: 6px;
+  box-shadow:
+    0 1px 2px rgba(11, 22, 49, 0.12),
+    0 24px 56px var(--shadow);
 }
 
 .book-hero h1 {
   margin: 0 0 1rem;
-  font: 700 clamp(2.75rem, 1.6rem + 4.2vw, 4.75rem) / 1.02 var(--serif);
+  font: 700 clamp(2.75rem, 1.7rem + 3.6vw, 4.5rem) / 1.02 var(--serif);
   letter-spacing: -0.015em;
   text-wrap: balance;
 }
 
 .book-sub {
-  margin: 0 0 1.25rem;
-  max-width: 34ch;
-  font: italic 400 clamp(1.15rem, 1rem + 0.6vw, 1.45rem) / 1.45 var(--serif);
+  margin: 0 0 1.5rem;
+  max-width: 30ch;
+  font: italic 400 clamp(1.15rem, 1rem + 0.55vw, 1.4rem) / 1.45 var(--serif);
   color: var(--muted);
+  text-wrap: pretty;
 }
 
 .byline {
-  margin: 0 0 2rem;
-  font: 600 0.9rem/1.2 var(--ui);
-  letter-spacing: 0.14em;
+  margin: 0 0 2.25rem;
+  font: 600 0.85rem/1.2 var(--ui);
+  letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
 .start .btn {
-  min-width: 220px;
+  min-width: 216px;
 }
 
 .start-note {
   margin: 0.75rem 0 0;
   min-height: 1.4em;
-  font: 500 0.9rem/1.4 var(--ui);
+  font: 500 0.88rem/1.4 var(--ui);
   color: var(--muted);
 }
 
 .facts {
-  margin: 1.75rem 0 0;
-  padding-top: 1.25rem;
-  max-width: 34rem;
-  border-top: 1px solid var(--rule);
-  font: 500 0.9rem/1.5 var(--ui);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 0;
+  margin: 2rem 0 0;
+  padding: 0;
+  list-style: none;
+  font: 500 0.82rem/1.3 var(--ui);
+  letter-spacing: 0.02em;
   color: var(--muted);
 }
 
-@media (max-width: 899px) {
-  .book-hero {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 40px;
-  }
-
-  .book-hero-cover {
-    order: 0;
-    width: min(64vw, 320px);
-    margin-inline: auto;
-  }
+.facts li + li::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  margin: 0 12px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: var(--muted);
 }
 
-.about,
-.book-contents {
-  margin-top: 72px;
-  padding-top: 40px;
-  border-top: 1px solid var(--rule);
-}
-
-.about > * {
-  max-width: var(--measure);
-}
-
+/* About and contribute */
 .about-headline {
   margin: 0 0 1.25rem;
-  font: 700 clamp(1.5rem, 1.2rem + 1.3vw, 2.1rem) / 1.25 var(--serif);
+  font: 600 clamp(1.45rem, 1.2rem + 1vw, 1.9rem) / 1.3 var(--serif);
   text-wrap: balance;
 }
 
-.about p {
+.about p,
+.contribute p {
   margin: 0 0 1rem;
 }
 
 .about-points {
   display: grid;
-  gap: 0.65rem;
-  margin: 1.75rem 0;
+  gap: 0.7rem;
+  margin: 1.75rem 0 2rem;
   padding: 0;
   list-style: none;
   font: 500 1rem/1.45 var(--ui);
@@ -440,38 +572,53 @@ img {
 
 .about-points li {
   display: flex;
-  gap: 12px;
+  gap: 14px;
 }
 
 .about-points li::before {
   content: "";
   flex: none;
-  width: 9px;
-  height: 9px;
-  margin-top: 0.45em;
+  width: 8px;
+  height: 8px;
+  margin-top: 0.5em;
   border-radius: 50%;
   background: var(--accent);
 }
 
 .about blockquote {
-  margin: 2rem 0 0;
+  margin: 0;
   padding-left: 1.25rem;
   border-left: 3px solid var(--accent);
   font: italic 400 clamp(1.15rem, 1rem + 0.5vw, 1.35rem) / 1.5 var(--serif);
 }
 
-.toc-columns {
-  columns: 2 22rem;
-  column-gap: 56px;
+.contribute-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+  margin: 1.75rem 0 1.25rem;
+  font: 600 0.95rem/1 var(--ui);
 }
 
-.toc-block {
-  break-inside: avoid;
-  margin-bottom: 2.25rem;
+.license-note {
+  font: 500 0.85rem/1.4 var(--ui);
+  color: var(--muted);
+}
+
+.license-note a {
+  color: var(--muted);
+}
+
+/* Contents */
+.toc-block + .toc-block {
+  margin-top: 2.25rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
 }
 
 .toc-block h3 {
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.5rem;
   font: 700 1.2rem/1.3 var(--serif);
 }
 
@@ -486,9 +633,9 @@ img {
 
 .toc-block h3 small {
   display: block;
-  margin-bottom: 0.3rem;
-  font: 700 0.72rem/1.2 var(--ui);
-  letter-spacing: 0.14em;
+  margin-bottom: 0.35rem;
+  font: 700 0.7rem/1.2 var(--ui);
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--green);
 }
@@ -501,23 +648,23 @@ img {
 
 .toc-row {
   display: grid;
-  grid-template-columns: 2rem minmax(0, 1fr) auto;
-  gap: 12px;
+  grid-template-columns: 2.25rem minmax(0, 1fr) auto;
+  gap: 16px;
   align-items: baseline;
-  padding: 0.7rem 0;
-  border-bottom: 1px solid var(--rule);
+  padding: 0.5rem 0;
   color: var(--fg);
   text-decoration: none;
-  font: 500 1rem/1.35 var(--ui);
+  font: 400 1.0625rem/1.4 var(--serif);
 }
 
 .toc-row .n {
+  font-size: 0.95rem;
   color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
 
 .toc-row-min {
-  font-size: 0.82rem;
+  font: 500 0.78rem/1 var(--ui);
   color: var(--muted);
   white-space: nowrap;
 }
@@ -525,12 +672,46 @@ img {
 .toc-row:hover .toc-row-title {
   color: var(--accent-ink);
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
 }
 
 .annex-note {
-  margin: 0.4rem 0 0;
-  font: 400 0.98rem/1.55 var(--serif);
+  margin: 0.5rem 0 0;
+  font: 400 1rem/1.6 var(--serif);
   color: var(--muted);
+}
+
+/* Phones and small tablets: one column. Order: title and reading button,
+   then the cover, then about, contents and contribute. */
+@media (max-width: 899px) {
+  .book-home {
+    padding-block: 40px 72px;
+  }
+
+  .bh-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .book-hero {
+    row-gap: 40px;
+  }
+
+  .book-hero-cover {
+    order: 2;
+    width: min(62vw, 300px);
+    margin-inline: auto;
+  }
+
+  .bh-section {
+    margin-top: 64px;
+    padding-top: 32px;
+  }
+
+  .bh-label {
+    position: static;
+    margin: 0 0 1.25rem;
+  }
 }
 
 .not-found {
@@ -772,12 +953,22 @@ details[open] > summary.toc-group::after {
   position: sticky;
   bottom: 0;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 6px 8px 6px 20px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  padding: 12px 16px 14px 20px;
   background: var(--surface);
   border-top: 1px solid var(--rule);
   font: 500 0.85rem/1 var(--ui);
+}
+
+.rail-foot .theme-switch {
+  display: flex;
+}
+
+.rail-foot .theme-switch button {
+  flex: 1;
+  justify-content: center;
 }
 
 .rail-foot a {
@@ -796,11 +987,6 @@ details[open] > summary.toc-group::after {
   }
 }
 
-@media (max-width: 1099px) {
-  .rail-foot .theme-toggle {
-    display: none;
-  }
-}
 
 @media (min-width: 1100px) {
   .topbar,
@@ -984,9 +1170,13 @@ details[open] > summary.toc-group::after {
   border-bottom: 0;
 }
 
-@media (max-width: 600px) {
+.table-wrap :is(th, td) {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
   .table-wrap table {
-    font-size: 0.82rem;
+    font-size: 0.85rem;
   }
 
   .table-wrap th,
@@ -994,9 +1184,58 @@ details[open] > summary.toc-group::after {
     padding: 8px 10px;
   }
 
-  /* Three or more columns: give cells room and let the table scroll in its box. */
-  .table-wrap table:has(th:nth-child(3)) :is(th, td) {
-    min-width: 9.5rem;
+  /* Three or more columns: each row becomes a card, every value labelled with
+     its column heading, so nothing has to scroll sideways. */
+  .table-wrap table:has(th:nth-child(3)) :is(tbody, tr, td) {
+    display: block;
+    width: 100%;
+  }
+
+  .table-wrap table:has(th:nth-child(3)) thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .table-wrap table:has(th:nth-child(3)) tr {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .table-wrap table:has(th:nth-child(3)) tr:last-child {
+    border-bottom: 0;
+  }
+
+  .table-wrap table:has(th:nth-child(3)) td {
+    padding: 3px 0;
+    border: 0;
+  }
+
+  .table-wrap table:has(th:nth-child(3)) td + td {
+    margin-top: 6px;
+  }
+
+  .table-wrap table:has(th:nth-child(3)) td::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: 2px;
+    font: 700 0.68rem/1.3 var(--ui);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* The first column names the row: show it as the card's title. */
+  .table-wrap table:has(th:nth-child(3)) td:first-child {
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+
+  .table-wrap table:has(th:nth-child(3)) td:first-child::before {
+    content: none;
   }
 }
 
@@ -1068,6 +1307,20 @@ details[open] > summary.toc-group::after {
   margin: 0.45rem 0 0;
   font: 500 0.85rem/1.4 var(--ui);
   color: var(--muted);
+}
+
+.edit-link {
+  margin: 2.5rem 0 0;
+  font: 500 0.88rem/1.4 var(--ui);
+  color: var(--muted);
+}
+
+.edit-link a {
+  color: var(--muted);
+}
+
+.edit-link a:hover {
+  color: var(--accent-ink);
 }
 
 .prev-next {

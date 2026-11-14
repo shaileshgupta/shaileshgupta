@@ -1,6 +1,9 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import data from "@/content/the-third-freedom/book.json";
+import { REPO_BRANCH, REPO_URL, SITE_URL } from "@/lib/site";
+
+export { SITE_URL };
 
 export type SectionKind = "front" | "part" | "chapter" | "afterword" | "annex";
 
@@ -38,7 +41,6 @@ export interface Book {
 }
 
 export const book = data as Book;
-export const SITE_URL = "https://shaileshgupta.xyz";
 export const BOOK_PATH = `/${book.slug}`;
 export const ANNEX_PATH = `${BOOK_PATH}/annex`;
 /** Share image from app/opengraph-image.tsx; pages that set openGraph must list it again. */
@@ -56,10 +58,17 @@ export const chaptersInPart = (partId: string) =>
   book.sections.filter((s) => s.kind === "chapter" && s.part === partId);
 export const chapters = book.sections.filter((s) => s.kind === "chapter");
 
-export function readBody(s: Section): string {
-  const dir = s.kind === "annex" ? "annex" : "sections";
-  return readFileSync(path.join(process.cwd(), "content", book.slug, dir, `${s.slug}.md`), "utf8");
+/** Repo-relative path of a page's Markdown file. */
+export function sourcePath(s: Section): string {
+  return `content/${book.slug}/${s.kind === "annex" ? "annex" : "sections"}/${s.slug}.md`;
 }
+
+export function readBody(s: Section): string {
+  return readFileSync(path.join(process.cwd(), sourcePath(s)), "utf8");
+}
+
+/** Opens the page's file in GitHub's editor; GitHub forks for non-members and proposes a pull request. */
+export const editHref = (s: Section) => `${REPO_URL}/edit/${REPO_BRANCH}/${sourcePath(s)}`;
 
 export const minutes = (words: number) => Math.max(1, Math.round(words / WORDS_PER_MINUTE));
 

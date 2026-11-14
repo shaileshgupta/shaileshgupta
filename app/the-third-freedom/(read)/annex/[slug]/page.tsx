@@ -5,6 +5,7 @@ import { ReadingPage } from "@/components/Reading";
 import {
   book,
   describe,
+  editHref,
   eyebrowFor,
   firstParagraph,
   fullTitle,
@@ -58,6 +59,7 @@ export default async function AnnexPage({ params }: Params) {
       meta={`${minutes(s.words)} min read`}
       variant="annex"
       body={readBody(s)}
+      editHref={editHref(s)}
     >
       {chapter ? (
         <aside className="annex-cta" aria-label="Chapter">

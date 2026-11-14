@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import type { TocGroup } from "@/lib/book";
-import { ThemeToggle } from "@/components/ThemeToggle";
+import { ThemeSwitch, ThemeToggle } from "@/components/ThemeToggle";
 
 const WIDE = "(min-width: 1100px)";
 const subscribeWide = (cb: () => void) => {
@@ -162,7 +162,7 @@ export function ReaderShell({ groups, titles, bookTitle, bookHref, author, child
           <Link href="/" prefetch={false}>
             shaileshgupta.xyz
           </Link>
-          <ThemeToggle />
+          <ThemeSwitch />
         </div>
       </nav>
       <main id="text" className="reader-main" tabIndex={-1}>

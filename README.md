@@ -1,49 +1,39 @@
-# shaileshgupta.xyz
+# Shailesh Gupta
 
-Personal website of Shailesh Gupta. It publishes the book **The Third Freedom** as a free online read.
+Author of **The Third Freedom**: *India's unfinished freedom, from developing to developed nation in one generation.*
 
-Next.js 16 (App Router, Cache Components). Every page is prerendered at build time.
+Read it free at **[shaileshgupta.xyz](https://shaileshgupta.xyz/the-third-freedom)** · [LinkedIn](https://www.linkedin.com/in/shaileshgupta88/) · [X](https://x.com/sg_markets)
 
-## Run locally
+## An open book
+
+The whole book is in this repository as Markdown, open for corrections and improvements. Every page on the site has a **Suggest an edit to this page on GitHub** link, and [CONTRIBUTING.md](CONTRIBUTING.md) explains how changes are proposed and reviewed.
+
+| Part of the book | Files |
+| --- | --- |
+| Introduction, summary, principles, part openers, chapters 1–28, afterword | `content/the-third-freedom/sections/` |
+| Implementation Annex | `content/the-third-freedom/annex/` |
+| Titles, order and summaries | `content/the-third-freedom/book.json` |
+
+## The website
+
+Next.js 16 (App Router, Cache Components). Every page is prerendered at build time and deployed on Vercel from `main`.
 
 ```bash
 npm install
 npm run dev        # http://localhost:5450
-```
-
-## Checks
-
-```bash
 npm run check      # typecheck + lint + production build
 ```
-
-## Book content
-
-The book lives in `content/the-third-freedom/`:
-
-- `book.json`: titles, parts, chapter order, back-cover copy
-- `sections/*.md`: front matter, part openers, chapters, afterword (one file per page)
-- `annex/*.md`: the Implementation Annex (one file per page)
-- `cover.png`: front cover
-
-These files are generated from the book's published HTML. To pull in a new version, save the HTML and run:
-
-```bash
-npm run import:book -- path/to/the-third-freedom.html
-```
-
-The importer rewrites in-book chapter links to site URLs and puts a few broken source lists back on their own lines. The back-cover copy in `book.json` comes from `scripts/import-book.mjs`.
-
-## Routes
 
 | Path | Page |
 | --- | --- |
 | `/` | Home |
-| `/the-third-freedom` | Book page: cover, about, contents |
-| `/the-third-freedom/<slug>` | Introduction, summary, principles, part openers, chapters 1–28, afterword |
+| `/the-third-freedom` | Book page: cover, about, contents, contribute |
+| `/the-third-freedom/<slug>` | Front matter, part openers, chapters, afterword |
 | `/the-third-freedom/annex` | Implementation Annex index |
 | `/the-third-freedom/annex/<slug>` | Annex pages |
 
-## Deploy
+The Markdown in this repository is the source of truth. `scripts/import-book.mjs` rebuilds every file from a complete HTML edition of the book and overwrites the Markdown, so use it only to import a whole new edition.
 
-Vercel project linked to this repository; pushes to `main` deploy to https://shaileshgupta.xyz.
+## License
+
+Book text and cover: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Website code: MIT. See [LICENSE.md](LICENSE.md).

@@ -10,6 +10,7 @@ import {
   book,
   chaptersInPart,
   describe,
+  editHref,
   eyebrowFor,
   firstParagraph,
   fullTitle,
@@ -67,6 +68,7 @@ export default async function SectionPage({ params }: Params) {
         meta={s.kind === "part" ? undefined : `${minutes(s.words)} min read`}
         variant={s.kind === "part" ? "part" : "default"}
         body={readBody(s)}
+        editHref={editHref(s)}
       >
         {inPart.length ? (
           <section className="in-part" aria-label="In this part">

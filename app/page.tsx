@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import cover from "@/content/the-third-freedom/cover.png";
-import { JsonLd, SiteFooter, SiteHeader } from "@/components/Site";
+import { JsonLd, ProfileLinks, SiteFooter, SiteHeader } from "@/components/Site";
 import { BOOK_PATH, SITE_URL, book, OG_IMAGES } from "@/lib/book";
+import { PROFILES } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: "Shailesh Gupta" },
@@ -19,6 +20,7 @@ export default function Home() {
         <section className="home-intro">
           <h1>Shailesh Gupta</h1>
           <p className="home-sub">Author of {book.title}</p>
+          <ProfileLinks />
         </section>
 
         <section className="home-books" aria-labelledby="books">
@@ -49,6 +51,7 @@ export default function Home() {
           "@type": "Person",
           name: "Shailesh Gupta",
           url: SITE_URL,
+          sameAs: PROFILES.map((p) => p.href),
         }}
       />
     </>
